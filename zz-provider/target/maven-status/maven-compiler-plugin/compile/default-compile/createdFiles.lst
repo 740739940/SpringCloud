@@ -1,0 +1,5 @@
+com\zz\module\user\pojo\User.class
+com\zz\ScServerApplication.class
+com\zz\module\user\service\UserService.class
+com\zz\module\user\service\impl\UserServiceImpl.class
+com\zz\module\user\mapper\UserMapper.class

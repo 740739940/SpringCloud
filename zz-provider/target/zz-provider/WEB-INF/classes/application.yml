@@ -1,0 +1,6 @@
+##########数据库配置##########
+spring:
+  profiles:
+    active: dev #开发
+#    active: pro #生产
+
