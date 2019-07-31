@@ -1,95 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec939ee2-5d3e-412d-951e-b575b6efea7e" name="Default Changelist" comment="练习代码提交（单独配置中心服务的）">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="ec939ee2-5d3e-412d-951e-b575b6efea7e" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringCloud.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-client/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-client/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-client/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-client/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-client/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-client/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-client/src/main/java/com/zz/configclient/ConfigClientApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-client/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-client/src/test/java/com/zz/configclient/ConfigClientApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/src/main/java/com/zz/configserver/ConfigServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/src/test/java/com/zz/configserver/ConfigServerApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/java/com/zz/eurekaserver/EurekaServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/src/test/java/com/zz/eurekaserver/EurekaServerApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serice-feign/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serice-feign/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serice-feign/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serice-feign/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serice-feign/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serice-feign/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serice-feign/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serice-feign/src/main/java/com/zz/sericefeign/SericeFeignApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serice-feign/src/main/java/com/zz/sericefeign/module/controller/HiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serice-feign/src/main/java/com/zz/sericefeign/module/service/SchedualServiceHi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serice-feign/src/main/java/com/zz/sericefeign/module/service/impl/SchedualServiceHiImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serice-feign/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serice-feign/src/test/java/com/zz/sericefeign/SericeFeignApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-hi/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-hi/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-hi/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-hi/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-hi/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-hi/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-hi/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/zz/servicehi/ServiceHiApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-hi/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-hi/src/test/java/com/zz/servicehi/ServiceHiApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-zuul/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-zuul/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-zuul/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-zuul/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-zuul/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-zuul/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-zuul/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-zuul/src/main/java/com/zz/servicezuul/ServiceZuulApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-zuul/src/main/java/com/zz/servicezuul/module/MyFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-zuul/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-zuul/src/test/java/com/zz/servicezuul/ServiceZuulApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zz-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zz-common/src/main/java/com/zz/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zz-common/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zz-common/src/main/webapp/index.jsp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/zz-common/target/classes/com/zz/pojo/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zz-provider/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zz-provider/src/main/java/com/zz/ScServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zz-provider/src/main/java/com/zz/module/user/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zz-provider/src/main/java/com/zz/module/user/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zz-provider/src/main/java/com/zz/module/user/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zz-provider/src/main/java/com/zz/module/user/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zz-provider/src/main/resources/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zz-provider/src/main/resources/application-pro.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zz-provider/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zz-provider/src/main/resources/mybatis-mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zz-provider/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zz-provider/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zz-provider/src/test/test.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/zz-provider/target/classes/application-dev.yml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/zz-provider/target/classes/application-pro.yml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/zz-provider/target/classes/application.yml" afterDir="false" />
@@ -157,6 +71,7 @@
       <change afterPath="$PROJECT_DIR$/zz-provider/target/zz-provider/WEB-INF/lib/velocity-engine-core-2.0.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/zz-provider/target/zz-provider/WEB-INF/web.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/zz-provider/target/zz-provider/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-client/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-client/src/main/resources/bootstrap.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -199,8 +114,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config-client/src/main/resources/bootstrap.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+            <state relative-caret-position="270">
+              <caret line="10" column="57" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -359,6 +274,32 @@
             <path>
               <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringCloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="config-client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="config-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="config-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="config-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -538,7 +479,7 @@
       <workItem from="1564446404092" duration="21599000" />
       <workItem from="1564533695941" duration="31000" />
       <workItem from="1564557737234" duration="210000" />
-      <workItem from="1564557975774" duration="14314000" />
+      <workItem from="1564557975774" duration="14485000" />
     </task>
     <task id="LOCAL-00001" summary="练习代码提交（单独配置中心服务的）">
       <created>1564568293234</created>
@@ -582,7 +523,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564570666537</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="练习代码提交（单独配置中心服务的）">
+      <created>1564573668500</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1564573668501</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -618,10 +566,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75210000" />
+    <option name="totallyTimeSpent" value="75381000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -1064,8 +1013,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config-client/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        <state relative-caret-position="270">
+          <caret line="10" column="57" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
         </state>
       </provider>
     </entry>
