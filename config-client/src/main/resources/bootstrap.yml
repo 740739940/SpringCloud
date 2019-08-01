@@ -7,6 +7,18 @@ spring:
     config:
       label: master
       profile: dev
-      uri: http://localhost:8888/
+      discovery:
+        enabled: true
+        service-id: config-server
+#      uri: http://localhost:8888/
 #        configclient ：启动后用bootstrap去注册中心注册，然后去appli..取配置
+#  spring.cloud.config.discovery.enabled ：开启Config服务发现支持
+#  spring.cloud.config.discovery.serviceId ：指定server端的name,也就是server端spring.application.name的值
+#  eureka.client.serviceUrl.defaultZone ：指向配置中心的地址
 
+
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8889/eureka/
