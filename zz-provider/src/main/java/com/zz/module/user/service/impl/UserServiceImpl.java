@@ -1,5 +1,8 @@
 package com.zz.module.user.service.impl;
 
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.zz.module.user.mapper.UserMapper;
 import com.zz.module.user.pojo.User;
 import com.zz.module.user.service.UserService;
@@ -18,8 +21,13 @@ public class UserServiceImpl implements UserService {
     private UserMapper userMapper;
 
     @Override
-    public User getById(Long id) {
-        User user = userMapper.findById(id);
-        return user;
+    public IPage<User> getById(Long id) {
+        Page<User> page = new Page<>();
+        QueryWrapper qw = new QueryWrapper<>();
+        page.setTotal(10);
+        page.setPages(1);
+        IPage<User> u = userMapper.findById(page);
+        System.out.println(u);
+        return u;
     }
 }

@@ -1,5 +1,4 @@
 import com.zz.ScServerApplication;
-import com.zz.module.user.pojo.User;
 import com.zz.module.user.service.UserService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -24,8 +23,8 @@ public class test {
 
     @Test
     public void x() {
-        User user = userService.getById(4L);
-        System.out.println(user.toString());
+//        User user = userService.getById(4L);
+//        System.out.println(user.toString());
     }
 
 }

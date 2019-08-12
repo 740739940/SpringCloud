@@ -1,6 +1,5 @@
 package com.zz.module.user.pojo;
 
-import com.baomidou.mybatisplus.annotation.TableField;
 import lombok.Data;
 
 /**
@@ -11,16 +10,10 @@ import lombok.Data;
 @Data
 public class User {
 
-    @TableField
+//    @TableField
     private Long id;
 
-    private String userName;
+    private String carNo;
 
-    private String url;
-
-    @Override
-    public String toString(){
-        return id + "==========" + "userName" + "===========" + url;
-
-    }
+    private String remark;
 }

@@ -8,10 +8,11 @@ server:
 
 ##########mybatis配置##########
 mybatis-plus:
+  # MyBatis Mapper 所对应的 XML 文件位置
   mapper-locations: classpath:mybatis-mapper/*.xml
+  global-config:
+    refresh: true
   type-aliases-package: com.zz.module.user.pojo
-#  type-aliases-package: com.zz.module.*.pojo
-#  config-location:  classpath:mybatis-config.xml
 
 
 ##########数据库配置##########
